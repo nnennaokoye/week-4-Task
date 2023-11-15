@@ -4,11 +4,7 @@
  * @param {string[]} inputPath An array of csv files to read
  * @param {string} outputFile The path where to output the report
  */
-// function validateEmailAddresses(inputPath: string[], outputFile: string) {
-//   console.log('Complete the implementation in src/validation.ts');
-// }
 
-// export default validateEmailAddresses;
 import * as dns from 'dns';
 import * as fs from 'fs';
 import { convertArrayToCSV } from 'convert-array-to-csv';
