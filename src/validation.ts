@@ -36,7 +36,6 @@ async function validateEmailAddresses(inputFilePath: string[], outputFilePath: s
     return obj.Emails !== 'Emails' && obj.Emails !== ''
   });
   
-  //const arrayOfConvertedEmail = convertCsvToJson(inputFilePath);
 
   async function checkMxRecord(emailtoCheck: string) {
     const domain = emailtoCheck.split('@')[1];
